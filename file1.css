@@ -1,1 +1,27 @@
-hello
+.container{
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.button-border{
+background: linear-gradient(115deg,orange,45%,rgb(231, 54, 19),80%,rgb(69, 6, 158));
+padding: 2px;
+}
+.button{
+ border: none;
+ background: black;
+ color: aliceblue;
+ padding:1em 1.5em ;
+ letter-spacing: .1em;
+}
+.button-border:hover{
+ background: linear-gradient(230deg,orange,40%,rgb(231, 54, 19),80%,rgb(69, 6, 158));
+ padding: 2.5px;
+}
+.button:hover{
+ color: white;
+ padding:1.1em 1.6em ;
+
+}
